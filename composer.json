@@ -2,7 +2,7 @@
 	"name": "maximilian-walter/typo3-jshrink",
 	"type": "typo3-cms-extension",
 	"version": "1.0.0",
-	"description": "Integrates the library JShrink in the build-in JavaScript-compressor",
+	"description": "Integrates the library JShrink in the build-in JavaScript-compressor of TYPO3",
 	"keywords": [
 		"TYPO3",
 		"extension",
