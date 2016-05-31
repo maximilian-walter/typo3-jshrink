@@ -1,8 +1,8 @@
 # JShrink for TYPO3
 
 [![License](http://img.shields.io/packagist/l/maximilian-walter/typo3-jshrink.svg)](https://github.com/maximilian-walter/typo3-jshrink/blob/master/LICENSE.txt)
-[![Latest Stable Version](https://img.shields.io/github/release/maximilian-walter/typo3-jshrink.svg)](https://packagist.org/packages/maximilian-walter/typo3-shrink)
-[![Total Downloads](http://img.shields.io/packagist/dt/maximilian-walter/typo3-jshrink.svg)](https://packagist.org/packages/maximilian-walter/typo3-shrink)
+[![Latest Stable Version](https://img.shields.io/packagist/v/maximilian-walter/typo3-jshrink.svg)](https://packagist.org/packages/maximilian-walter/typo3-jshrink)
+[![Total Downloads](http://img.shields.io/packagist/dt/maximilian-walter/typo3-jshrink.svg)](https://packagist.org/packages/maximilian-walter/typo3-jshrink)
 
 The TYPO3 core can compress CSS and JavaScript files to improve frontend-performance. Unlike CSS files the JavaScript files are
 only compressed with GZip and not minified. This extension integrates the popular library
