@@ -62,6 +62,8 @@ class ResourceCompressor extends \TYPO3\CMS\Core\Resource\ResourceCompressor
             }
             $this->writeFileAndCompressed($targetFile, $minifiedContents);
         }
-        return $this->relativePath . $this->returnFileReference($targetFile);
+        return isset($this->relativePath)
+            ? $this->relativePath . $this->returnFileReference($targetFile)
+            : $this->returnFileReference($targetFile);
     }
 }

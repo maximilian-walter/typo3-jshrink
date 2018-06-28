@@ -20,8 +20,8 @@
 	],
 	"license": "GPL-2.0+",
 	"require": {
-		"typo3/cms-core": ">=7.6.0,<8.2.0",
-		"tedivm/jshrink": "~1.1.0"
+		"typo3/cms-core": "^7.6 || ^8.0",
+		"tedivm/jshrink": "^1.1"
 	},
 	"autoload": {
 		"psr-4": {
@@ -33,3 +33,4 @@
 		"typo3-ter/jshrink": "self.version"
 	}
 }
+
